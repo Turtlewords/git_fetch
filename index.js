@@ -22,7 +22,7 @@ function fetchInfo() {
         
     })
     .catch((error) => {
-        output.innerHTML = error.message;
+        output.innerHTML = `<p class="error">${error.message}</p>`
     })
     
 }
