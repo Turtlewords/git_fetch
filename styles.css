@@ -11,10 +11,13 @@
     box-sizing: border-box;
 }
 
-
+html, body {
+    min-height: 100vh;
+}
 
 body {
-    
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(#E8EBE4, #999AC6);
     font-family: "Montserrat", serif;
     overflow: auto;
@@ -29,17 +32,23 @@ img {
     max-width: 253px;
 }
 
+
+
 main {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    
 }
 
 #inputSec {
     text-align: center;
     max-width: 350px;
 }
+
+
 
 #input {
     font-size: 1.1rem;
@@ -110,7 +119,9 @@ main {
 
 footer {
     margin-top: auto;
+    padding: 1%;
     text-align: center;
+    
 }
 
 footer a {
@@ -128,16 +139,14 @@ footer a:hover {
 
 
 @media (max-width: 413px) {
+    
+
     #output {
         padding-bottom: 2rem;
     }
 }
 
-@media (min-width: 413px){
-    body {
-        height: 100vh;
-    }
-}
+
 
 @media (min-width: 768px) {
     .card {
