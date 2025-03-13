@@ -3,10 +3,10 @@ Tool for looking up GitHub credentials with usernames by fetching data from the 
 
 ## Usage
 
-Just enter your user name into the input field
+Just enter your user name into the input field<br>
 ![screenshot of git fetch website](https://github.com/Turtlewords/git_fetch/blob/main/images/git_fetch1.png)
 
-And view the results
+And view the results<br>
 ![screenshot of git fetch website](https://github.com/Turtlewords/git_fetch/blob/main/images/git_fetch2.png)
 
 
